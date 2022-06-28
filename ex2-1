@@ -1,34 +1,21 @@
 #include <stdio.h>
 
-using namespace std;
-
 int main()
 {
-    int     i=10;
-    double  f;
-    float   f1;
-    char    s[30];
-    char        s1='c';
-    
-    printf("please input a integer \n");
+    int     i = 10;
+    int     x = 10;
+
+    printf(" please input a integer_1 \n");
     scanf("%d",&i);
-    printf("your input integer=%d\n",i);
+    printf(" your input integer_1 = %d\n",i);
     
-    printf("please input a float number \n");
-    scanf("%lf",&f);
-    printf("your input float number=%lf\n",f);
+    printf(" please input a integer_2 \n");
+    scanf("%d",&x);
+    printf(" your input integer_2 = %d\n",x);
     
-    printf("please input a string \n");
-    scanf("%s",s);
-    printf("your input string=%s\n",s);
+    printf(" your input integer-3 = %d\n",(i * i) + (x * x));
     
-    printf("char display=%c\n",s1);
-    printf("char display=%x\n",s1);
-    
-    printf("your input integer=%d\n",i + 2);
-    printf("your input integer=%d\n",i - 2);
-    printf("your input integer=%d\n",i * 2);
-    printf("your input integer=%d\n",i / 2);
-    
+
+   
     return 0;
 }
